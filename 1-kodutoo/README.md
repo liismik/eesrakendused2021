@@ -3,4 +3,4 @@ Võimalik on muuta taustapilti koos autori nime ja repo aadressi tekstiväriga n
 Rakenduse ekraanipildid:
 
 ![Screenshot1](https://github.com/liismik/eesrakendused2021/blob/main/1-kodutoo/cap1.PNG)
-![Screenshot2](https://github.com/liismik/1-kodutoo/blob/main/cap2.PNG?raw=true)
+![Screenshot2](https://github.com/liismik/eesrakendused2021/blob/main/1-kodutoo/cap2.PNG)
