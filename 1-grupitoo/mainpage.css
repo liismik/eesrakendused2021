@@ -1,0 +1,103 @@
+body{
+    background-color:lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 70%;
+    margin: auto;
+}
+
+#mainPage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#ageSliderBox{
+    padding: 20px;
+    background: rgba(255,255,255,0.4);
+    width: 170px;
+    margin: 25px auto;
+}
+
+#exercises{
+    text-align: left;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    background: rgba(255,255,255,0.4);
+    width: 70vw;
+    margin: 1px auto;
+}
+
+#exercises h4{
+    text-align: center;
+}
+
+
+#exerciseList{
+    flex-grow: 1;
+    width: 50%;
+}
+
+#hardExerciseList{
+    width: 50%;
+}
+
+#hardExerciseList h5{
+    text-align: center;
+}
+
+#exerciseTitle h3{
+    text-align: center;
+    background: rgba(255,255,255,0.4);
+    width: 70vw;
+    padding: 10px;
+}
+
+#repoLink h3{
+    text-align: center;
+    background: rgba(255,255,255,0.4);
+    width: 70vw;
+    padding: 10px;
+}
+
+.menu{
+    top: 0;
+    display: absolute;
+    background-color: black;
+    overflow: hidden;
+}
+.menu a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu :hover{
+    background-color: #cecece;
+    color: black;
+}
+.menu a.active{
+    background-color: rgb(0, 113, 128);
+}
+
+@media only screen and (max-width: 800px) {
+    #exercises{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        background: rgba(255,255,255,0.4);
+        width: 70vw;
+    }
+  }

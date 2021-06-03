@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    margin: 0px;
+}
+
+div {
+    text-align: center;
+}
+
+#name, #tel, #email, #textarea {
+    width: 25%;
+    border: 2px solid rgb(144, 144, 144);
+    background-color: rgb(213, 242, 255);
+    border-radius: 4px;
+}
+
+#user_cell {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#user_submit {
+    width: 150px;
+    height: 30px;
+    border: 2px solid rgb(144, 144, 144);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+#div_error {
+    color: red;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="mainpage.js" defer></script>
+    <title>Avaleht</title>
+</head>
+<body>
+    <div class="menu" id="menuID">
+        <a href="mainpage.html" class="active">Avaleht</a>
+        <a href="team.html">Tiimileht</a>
+        <a href="contactpage.html">Kontakt</a>
+    </div>
+    <div id="mainPage">
+        <div id="ageSliderBox">
+            <h3>Pensionikalkulaator</h3>
+            <h4>Vali vanus:</h4>
+            <div id="age"></div>
+            <input type="range" min="1" max="100" value="50" id="ageRange">
+            <h4>Vali sugu:</h4>
+            <div id="gender">
+                <input type="radio" name="gender" value="male">Mees
+                <input type="radio" name="gender" value="female">Naine
+            </div>
+            <h4>Tulemus</h4>
+            <div id="resultText"></div>
+            <div id="resultNumber"></div>
+        </div>
+        <div id="exerciseTitle"><h3>Ülesanded</h3></div>
+        <div id="exercises">
+            <div id="exerciseList">
+                <div id="frontPageExercises">
+                    <h4>Avalehele tuli teha:</h4>
+                    <ul>
+                        <li>Pensioni kalkulaator</li>
+                        <li>Link repositooriumile</li>
+                    </ul>
+                </div>
+                <div id="teamPageExercises">
+                    <h4>Tiimilehele tuli teha:</h4>
+                    <ul>
+                        <li>Tiimiliikmete slaider</li>
+                        <li>Lisada embeded Youtube muusikavideo</li>
+                    </ul>
+                </div>
+                <div id="contactPageExercises">
+                    <h4>Kontaktilehele tuli teha:</h4>
+                    <ul>
+                        <li>Vorm väljadega: nimi, telefon, email, lisainfo</li>
+                        <li>Lisada embeded Google Maps</li>
+                        <li>Lisada fiktiivsed kontaktandmed</li>
+                    </ul>
+                </div>
+                <div id="overallExercises">
+                    <h4>Üldiselt:</h4>
+                    <ul>
+                        <li>Veebilehel peab olema menüü, mille abil navigeerida</li>
+                        <li>Normaalselt skaleeruv lehekülg</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="hardExerciseList">
+                <h4>Mis osutus raskeks?</h4>
+                <h5>Oliver Labi</h5>
+                <ul>
+                    <p>Avalehel polnud slaiderit varem teinud ja sellega läks veidi aega</p>
+                </ul>
+                <h5>Sofia Geroiskaja</h5>
+                <ul>
+                    <p>(Teampage) oli natuke raske teha slaideri, sest meil esiteks 3 nädalat polnud loenguid ja ma juba kõike unustasin ära, ja sest me pole seda kunagi teinud. Teised asjad olid päris lihtsad, ainult slaideriga tekkisid probleemid</p>
+                </ul>
+                <h5>Stella-Marii Tamme</h5>
+                <ul>
+                    <p>Raske oli teha menüüd ühte faili ja kuvada seda faili igal lehel. See jäigi tegemata ja menüü on igas failis eraldi kirjas.</p>
+                </ul>
+                <h5>Liisa Mikola</h5>
+                <ul>
+                    <p>Raskeks ei osutunud otseselt midagi, JavaScripti õigesti kirjutamisega läks natuke kauem aega, kui arvasin</p>
+                </ul>
+            </div>
+        </div>
+        <div id="repoLink"><h3>Repositooriumi link: https://github.com/liismik/9-tund</h3></div>
+        
+    </div>
+</body>
+</html>

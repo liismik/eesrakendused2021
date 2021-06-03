@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="contactpage.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="contactpage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="menu" id="menuID">
+        <a href="mainpage.html">Avaleht</a>
+        <a href="team.html">Tiimileht</a>
+        <a href="contactpage.html" class="active">Kontakt</a>
+    </div>
+    <div>
+        <br>
+        <h2>Kontakt</h2>
+        <div class="error" id="div_error"></div>
+        <div class="success"></div>
+        <form id="user_info" method="post" action="" onsubmit="return formValidation()">
+            <div id="user_cell">
+                <label for="name">Nimi</label>
+                <br>
+                <input type="text" id="name" name="name"></input>
+            </div>
+            <div id="user_cell">        
+                <label for="tel">Telefoninumber</label>
+                <br>
+                <input type="tel" id="tel" name="tel"></input>
+            </div>
+            <div id="user_cell">
+                <label for="email">E-mail</label>
+                <br>
+                <input type="email" id="email" name="email"></label>
+            </div>
+            <div id="user_cell">
+                <label for="textbox">Lisainfo</label>
+                <br>
+                <textarea id="textarea" name="textarea" form="user"></textarea>
+            </div>
+            <div id="user_cell">
+                <button id="user_submit" type="submit">Kinnita</button>
+            </div>
+        </form>
+    </div>
+    <div id="map">
+        <br>
+        <br>
+        <h2>Koht, kuhu sooviksime peale karantiini minna</h2>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d414895.2111496369!2d139.46068054017593!3d35.667919120148376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2zVMWNa3nFjSwgVMWNa3nFjSBwcmVmZWt0dXVyLCBKYWFwYW4!5e0!3m2!1set!2see!4v1619098098312!5m2!1set!2see" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div id="contact">
+        <br>
+        <br>
+        <h2>Meie kontaktandmed</h2>
+        <p>Telefoninumber: +372 5555 1234</p>
+        <p>Aadress: Narva maantee 25, 10120 Tallinn</p>
+        <p>E-mail: olivstelliisofi@eesrak.ee</p>
+        <br>
+        <br>
+    </div>
+</body>
+</html>
