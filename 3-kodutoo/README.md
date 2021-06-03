@@ -6,5 +6,5 @@ kuid seda vaid radiaanides. Lisatud on ka võimalus vahetada öö- ja päevarež
 Kasutatud on ka https://www.edureka.co/blog/javascript-calculator/ õpetust.
 
 Gif kalkulaatorist öö-ja päevarežiimis:
-![alt text](https://github.com/liismik/3-kodutoo/blob/main/calc.gif)
-![alt_text](https://github.com/liismik/3-kodutoo/blob/main/calc2.gif)
+![alt text](https://github.com/liismik/eesrakendused2021/blob/main/3-kodutoo/calc.gif)
+![alt_text](https://github.com/liismik/eesrakendused2021/blob/main/3-kodutoo/calc2.gif)
